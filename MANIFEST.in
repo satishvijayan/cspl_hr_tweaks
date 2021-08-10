@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cspl_hr_tweaks *.css
+recursive-include cspl_hr_tweaks *.csv
+recursive-include cspl_hr_tweaks *.html
+recursive-include cspl_hr_tweaks *.ico
+recursive-include cspl_hr_tweaks *.js
+recursive-include cspl_hr_tweaks *.json
+recursive-include cspl_hr_tweaks *.md
+recursive-include cspl_hr_tweaks *.png
+recursive-include cspl_hr_tweaks *.py
+recursive-include cspl_hr_tweaks *.svg
+recursive-include cspl_hr_tweaks *.txt
+recursive-exclude cspl_hr_tweaks *.pyc
